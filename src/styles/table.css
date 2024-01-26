@@ -1,0 +1,5 @@
+.table{
+    --bs-table-bg: rgba(255, 255, 255, .5) !important;
+    padding: 5px;
+    animation: fadeIn 2s; 
+}
