@@ -174,7 +174,7 @@ const CV = () => {
                         </Card.Body>
                         <Card.Footer>
                             <div style={{float: 'right', margin: '0px', padding: '0px'}}>
-                                <i>-K.M Mar 31, 2023 - Sep 1, 2023</i>
+                                <i>-K.M., Mar 31, 2023 - Sep 1, 2023</i>
                             </div>
                         </Card.Footer>
                     </Card>

@@ -101,7 +101,8 @@ const Projects = () => {
         url: '',
         demo: '',
         github: 'https://github.com/koloquial/wallethoa',
-        palette: ['rgb(18, 41, 23)', 'rgb(67, 98, 75)', 'rgb(250, 221, 0)']
+        palette: ['rgb(18, 41, 23)', 'rgb(67, 98, 75)', 'rgb(250, 221, 0)'],
+        status: 'MVP. Iterating development.'
     }
 
     const cineRate = {
@@ -122,7 +123,8 @@ const Projects = () => {
         url: '',
         demo: '',
         github: 'https://github.com/koloquial/cinerate',
-        palette: ['#292929', '#fd5757', '#fa7878']
+        palette: ['#292929', '#fd5757', '#fa7878'],
+        status: 'MVP. Awaiting deployment.'
     }
 
     const gardenOfMirrors = {
@@ -138,7 +140,8 @@ const Projects = () => {
         url: 'https://garden-of-mirrors.vercel.app/',
         demo: '',
         github: 'https://github.com/koloquial/garden-of-mirrors',
-        palette: ['#000', 'whitesmoke', '#313D2A']
+        palette: ['#000', 'whitesmoke', '#313D2A'],
+        status: 'v.1. Project complete.'
     }
 
     const parlorGames = {
@@ -158,7 +161,8 @@ const Projects = () => {
         url: 'https://parlor-games.vercel.app/',
         demo: '',
         github: 'https://github.com/koloquial/parlor-games',
-        palette: ['#3C3633', '#747264', ' #E0CCBE']
+        palette: ['#3C3633', '#747264', ' #E0CCBE'],
+        status: 'Ongoing iteration.'
     }
 
     const projects = [walletHOA, cineRate, gardenOfMirrors, parlorGames];
@@ -206,7 +210,8 @@ const Projects = () => {
                                         <ul>
                                             <li>{project.url ? <a href={project.url}>Online</a> : <i>Currently offline</i>}</li>
                                             <li>{project.demo ? <a href={project.demo} target='_blank'>Demo</a> : <i>Demo not available</i>}</li>
-                                            <li><a href={project.github} target='_blank'><p>Github</p></a></li>
+                                            <li><a href={project.github} target='_blank'>Github</a></li>
+                                            <li>{project.status}</li>
                                         </ul>
                                     </Col>
                                 </Row>
