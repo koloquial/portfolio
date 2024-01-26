@@ -37,6 +37,20 @@ import cine4 from '../../images/cinerate/cinerate4.png'
 import cine5 from '../../images/cinerate/cinerate5.png'
 import cine6 from '../../images/cinerate/cinerate6.png'
 
+import gom1 from '../../images/garden-of-mirrors/gom1.png'
+import gom2 from '../../images/garden-of-mirrors/gom2.png'
+import gom3 from '../../images/garden-of-mirrors/gom3.png'
+import gom4 from '../../images/garden-of-mirrors/gom4.png'
+import gom5 from '../../images/garden-of-mirrors/gom5.png'
+import gom6 from '../../images/garden-of-mirrors/gom6.png'
+import gom7 from '../../images/garden-of-mirrors/gom7.png'
+import gom8 from '../../images/garden-of-mirrors/gom8.png'
+import gom9 from '../../images/garden-of-mirrors/gom9.png'
+
+import par1 from '../../images/parlor-games/pg1.png'
+import par2 from '../../images/parlor-games/pg2.png'
+import par3 from '../../images/parlor-games/pg3.png'
+
 const Projects = () => {
 
     const getIcon = (icon) => {
@@ -106,13 +120,14 @@ const Projects = () => {
         ],
         description: 'Guess movie ratings with friends.',
         url: '',
+        demo: '',
         github: 'https://github.com/koloquial/cinerate',
         palette: ['#292929', '#fd5757', '#fa7878']
     }
 
     const gardenOfMirrors = {
         title: 'Garden of Mirrors',
-        screenshots: [hoa1],
+        screenshots: [gom1, gom2, gom3, gom4, gom5, gom6, gom7, gom8, gom9],
         technology: [
             'Angular 16', 
             'Chat GPT 3.5', 
@@ -120,14 +135,15 @@ const Projects = () => {
             'Google Fonts', 
         ],
         description: 'Garden of Mirrors is an aesthetic-driven non-linear story about introspective statues.',
-        url: '',
-        github: '',
+        url: 'https://garden-of-mirrors.vercel.app/',
+        demo: '',
+        github: 'https://github.com/koloquial/garden-of-mirrors',
         palette: ['#000', 'whitesmoke', '#313D2A']
     }
 
     const parlorGames = {
         title: 'Parlor Games',
-        screenshots: [hoa1],
+        screenshots: [par1, par2, par3],
         technology: [
             'React', 
             'react-router', 
@@ -138,10 +154,11 @@ const Projects = () => {
             'Free Dictionary API',
             'Random Word API'
         ],
-        description: 'Simple games.',
-        url: '',
-        github: '',
-        palette: ['rgb(18, 41, 23)', 'rgb(67, 98, 75)', 'rgb(250, 221, 0)']
+        description: 'Classic games, implemented.',
+        url: 'https://parlor-games.vercel.app/',
+        demo: '',
+        github: 'https://github.com/koloquial/parlor-games',
+        palette: ['#3C3633', '#747264', ' #E0CCBE']
     }
 
     const projects = [walletHOA, cineRate, gardenOfMirrors, parlorGames];
@@ -187,8 +204,8 @@ const Projects = () => {
                                     <Col>
                                     <h5>View</h5>
                                         <ul>
-                                            <li>{project.url ? <a href={project.url}>View</a> : <i>Offline</i>}</li>
-                                            <li><a href={project.demo} target='_blank'>Demo</a></li>
+                                            <li>{project.url ? <a href={project.url}>Online</a> : <i>Currently offline</i>}</li>
+                                            <li>{project.demo ? <a href={project.demo} target='_blank'>Demo</a> : <i>Demo not available</i>}</li>
                                             <li><a href={project.github} target='_blank'><p>Github</p></a></li>
                                         </ul>
                                     </Col>
