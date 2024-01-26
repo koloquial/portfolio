@@ -1,0 +1,4 @@
+a, a:link, a:active{
+    color: var(--shade4) !important;
+    text-decoration: none !important;
+}

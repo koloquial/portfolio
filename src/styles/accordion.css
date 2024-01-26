@@ -1,0 +1,8 @@
+.accordion-button {
+    background: linear-gradient(145deg, var(--shade4), transparent) !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background: linear-gradient(145deg, var(--shade3), var(--shade4)) !important;
+    color: var(--black) !important;
+  }
