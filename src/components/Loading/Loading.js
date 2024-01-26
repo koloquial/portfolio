@@ -1,8 +1,10 @@
 const Loading = ({ message }) => {
     return (
-        <div style={{textAlign: 'center'}}>
+        <div>
+            <center>
             <div className='loader'></div>
-            <p>Sending...</p>
+            <p>Sending</p>
+            </center>
         </div>
     )
 }
