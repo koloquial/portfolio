@@ -17,3 +17,31 @@ button:active {
   background-color: rgba(255, 255, 255, .1);
   transition: .2s;
 }
+
+.button-alt{
+  /* border: 1px solid rgba(255, 255, 255, .2);
+  width: 100%;
+  transition: background-color .3s;
+  background: linear-gradient(45deg, var(--shade2), var(--shade1));
+  font-family: 'Playfair Display', serif;
+  color: var(--white);
+  margin: 0px 15px 15px 0px !important; */
+}
+
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, var(--shade4), var(--shade3));
+  color: black;
+}
+
+.border-gradient:hover {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  background: linear-gradient(to right, var(--shade4), var(--shade3));
+  color: black;
+}
+
