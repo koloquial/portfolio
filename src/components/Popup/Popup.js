@@ -29,8 +29,9 @@ const Popup = ({ show, setShow }) => {
           )
         .then((result) => {
             console.log(result.text);
-            
+            setLoading(false);
             setAlertMSG('Message sent.');
+            
 
         }, (error) => {
             console.log(error.text);
