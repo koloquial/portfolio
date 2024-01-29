@@ -45,3 +45,19 @@ button:active {
   color: black;
 }
 
+.online-button{
+ width: 120px;
+ height: auto;
+ border: 1px solid green;
+ background-color: rgba(0, 128, 0, .5);
+ color: black;
+ vertical-align: top;
+ display: inline-block;
+ cursor: pointer;
+}
+
+.online-button:disabled{
+  border: 1px solid gray;
+  background-color: rgba(128, 128, 128, .5);
+  cursor: default;
+}

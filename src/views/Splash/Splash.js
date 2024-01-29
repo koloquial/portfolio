@@ -24,10 +24,10 @@ const Splash = () => {
 
             <br />
             <div>
-                <span className='large-icon' onClick={() => window.open(`https://www.linkedin.com/in/koloquial/`, '_blank')}><FaLinkedin /></span>
-                <span className='large-icon' onClick={() => window.open(`https://github.com/koloquial`, '_blank')}><FaGithub /></span>
-                <span className='large-icon' onClick={() => window.open(`koloquial.medium.com`, '_blank')}><FaMedium /></span>
-                <span className='large-icon'><FaYoutube /></span>
+                <span className='large-icon' onClick={() => window.open(`https://www.linkedin.com/in/koloquial/`)}><FaLinkedin /></span>
+                <span className='large-icon' onClick={() => window.open(`https://github.com/koloquial`)}><FaGithub /></span>
+                <span className='large-icon' onClick={() => window.open(`https://koloquial.medium.com`)}><FaMedium /></span>
+                <span className='large-icon' onClick={() => window.open(`https://www.youtube.com/@createthroughintention`)}><FaYoutube /></span>
             </div>
 
             <Popup show={show} setShow={setShow} />

@@ -15,10 +15,10 @@ const CV = () => {
                     <Tab eventKey="profile" title="Profile">
                         <h5>Profile</h5>
                         <p>
-                            Nicholas Kolodziej is a Full-Stack Developer with strong background in Javascript, HTML and CSS as well as a variety of common web practices and platforms including React, Angular and Vue. He studied Computer Science at Western Michigan University, Telecommunications at Michigan State  University, and Advanced Software Engineering at Operation Spark.
+                        Nicholas Kolodziej brings a wealth of expertise as a Full-Stack Developer, showcasing a robust proficiency in Javascript, HTML, and CSS, along with a diverse skill set encompassing prevalent web practices and platforms such as React, Angular, and Vue. His educational background includes studies in Computer Science at Western Michigan University, Telecommunications at Michigan State University, and Advanced Software Engineering at Operation Spark.
                         </p>
                         <p>
-                            Over the last three years he has completed twenty-five educational courses with Learning & Knowledge using Carbon Design System, Gatsby (React) and LK Components UI Kit (Vanilla JS/HTML/CSS). This experience offered many opportunities to innovate and create custom interactions for prospective learners and create dynamic components/templates for future developers to expedite their process.
+                        Over the past three years, he has successfully completed twenty-five educational courses through Learning & Knowledge, leveraging tools like the Carbon Design System, Gatsby (React), and LK Components UI Kit (Vanilla JS/HTML/CSS). This extensive experience has not only enabled him to innovate and craft custom interactions for learners but has also empowered him to develop dynamic components and templates, streamlining processes for future developers.
                         </p>
                     </Tab>
                     <Tab eventKey='skills' title='Skills'>
@@ -62,6 +62,10 @@ const CV = () => {
                                 </ul>
                             </Col>
                         </Row>
+                        <p><b>Certificates:</b></p>
+                        <ul>
+                            <li>IBC Fundamentals Javascript/Functional and Web/Dev Level 3 in Advanced Software Engineering Immersive Program, Operation Spark, US, 2019</li>
+                        </ul>
                     </Tab>
                     <Tab eventKey='history' title='History'>
                     <h5>History</h5>
@@ -69,8 +73,7 @@ const CV = () => {
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
-                                    <th>Project</th>
-                                    <th>Timeframe</th>
+                                    <th style={{width: '20%'}}>Project</th>
                                     <th>Contribution</th>
                                 </tr>
                             </thead>
@@ -78,9 +81,7 @@ const CV = () => {
                                 <tr>
                                     <td>
                                         <p>Learning and Knowledge</p>
-                                    </td>
-                                    <td>
-                                        <p>May 2020 - Mar 2021</p>
+                                        <p><i>May 2020 - Mar 2021</i></p>
                                     </td>
                                     <td>
                                         <p>My role as UI developer on these (25) projects was to engineer the course based on wireframes/mockups provided by LED/VD using LK Components UI kit (Javascript, HTML, and CSS) or by Gatsby/Carbon framework and ReactJS.
@@ -91,9 +92,7 @@ const CV = () => {
                                 <tr>
                                     <td>
                                         <p>New York Department of Labor</p>
-                                    </td>
-                                    <td>
-                                        <p>Mar 2021 - Oct 2023</p>
+                                        <p><i>Mar 2021 - Oct 2023</i></p>
                                     </td>
                                     <td>
                                         <p>Assisted in NY DOL unemployment claims. Processed regular unemployment and pandemic unemployment. Helped claimants resolve problems with claims.</p>
@@ -106,15 +105,16 @@ const CV = () => {
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
-                                    <th>Project</th>
-                                    <th>Timeframe</th>
+                                <th style={{width: '20%'}}>Project</th>
                                     <th>Contribution</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Operation Spark</td>
-                                    <td>Oct 2019 - Mar 2020</td>
+                                    <td><p>
+                                        Teacher Assistant
+                                        </p>
+                                        Oct 2019 - Mar 2020</td>
                                     <td><p>Help guide students towards solutions using Javascript.</p></td>
                                 </tr>
                             </tbody>
@@ -124,15 +124,16 @@ const CV = () => {
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
-                                    <th>Project</th>
-                                    <th>Timeframe</th>
+                                <th style={{width: '20%'}}>Project</th>
                                     <th>Contribution</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Mise en Place</td>
-                                    <td>Oct 2019 - Oct 2019</td>
+                                    <td>
+                                        <p>Mise en Place</p>
+                                        <p><i>Oct 2019 - Oct 2019</i></p>
+                                    </td>
                                     <td><p>Developed bar inventory PWA using Angular 8, Firebase, Raspberry Pi w/ Python API, OCR, Postgres, and Ignite UI. I completed the front-end aspects as well as implemented the liquid displacement API using Raspberry Pi to obtain weight from a scale and Python to transmit back to client.</p></td>
                                 </tr>
                             </tbody>
@@ -142,7 +143,7 @@ const CV = () => {
                     <h5>Assessments</h5>
 
                     <Card>
-                        <Card.Header>Global Learning Consultant</Card.Header>
+                        <Card.Header>IBM Global Learning Consultant</Card.Header>
                         <Card.Body>
                             <p>
                                 Nick is a talented developer who manages his time and tasks very efficiently. He is communicative and raises issue and blockers in a timely fashion. I appreciate his willingness to 'go back to the drawing board' and seek creative solutions and innovative ways of achieving our business objectives. 
@@ -160,7 +161,7 @@ const CV = () => {
                     
                     <br />
                     <Card>
-                        <Card.Header>Global Learning Consultant</Card.Header>
+                        <Card.Header>IBM Global Learning Consultant</Card.Header>
                         <Card.Body>
                             <p>
                                 Nick is really great to work with. He's flexible, willing to be a team player, and will contribute ideas to make the project better.
@@ -199,7 +200,7 @@ const CV = () => {
 
                     <br />
                     <Card>
-                        <Card.Header>L&K Consultant</Card.Header>
+                        <Card.Header>IBM L&K Consultant</Card.Header>
                         <Card.Body>
                             <p>
                                 Nick was instrumental in helping to get this course completed and out the door in a timely matter. He is very accommodating to changes and requests based on the request from the LED (myself), SMEs, and other stakeholders.

@@ -99,10 +99,9 @@ const Projects = () => {
         ],
         description: 'A simple solution to record income and expenses, generate reports, and manage home owners.',
         url: '',
-        demo: '',
+        demo: 'https://youtu.be/IlfpiOIa8bo',
         github: 'https://github.com/koloquial/wallethoa',
         palette: ['rgb(18, 41, 23)', 'rgb(67, 98, 75)', 'rgb(250, 221, 0)'],
-        status: 'MVP. Iterating development.'
     }
 
     const cineRate = {
@@ -121,10 +120,9 @@ const Projects = () => {
         ],
         description: 'Guess movie ratings with friends.',
         url: '',
-        demo: '',
+        demo: 'https://youtu.be/NZMyFGRslbo',
         github: 'https://github.com/koloquial/cinerate',
         palette: ['#292929', '#fd5757', '#fa7878'],
-        status: 'MVP. Awaiting deployment.'
     }
 
     const gardenOfMirrors = {
@@ -138,10 +136,9 @@ const Projects = () => {
         ],
         description: 'Garden of Mirrors is an aesthetic-driven non-linear story about introspective statues.',
         url: 'https://garden-of-mirrors.vercel.app/',
-        demo: '',
+        demo: 'https://youtu.be/kfV57hpnHuY',
         github: 'https://github.com/koloquial/garden-of-mirrors',
         palette: ['#000', 'whitesmoke', '#313D2A'],
-        status: 'v.1. Project complete.'
     }
 
     const parlorGames = {
@@ -162,7 +159,6 @@ const Projects = () => {
         demo: '',
         github: 'https://github.com/koloquial/parlor-games',
         palette: ['#3C3633', '#747264', ' #E0CCBE'],
-        status: 'Ongoing iteration.'
     }
 
     const projects = [walletHOA, cineRate, gardenOfMirrors, parlorGames];
@@ -205,17 +201,19 @@ const Projects = () => {
                                         <h5>Description</h5>
                                         <p>{project.description}</p>
                                     </Col>
+                                </Row>
+                                <Row>
                                     <Col>
-                                    <h5>View</h5>
-                                        <ul>
-                                            <li>{project.url ? <a href={project.url}>Online</a> : <i>Currently offline</i>}</li>
-                                            <li>{project.demo ? <a href={project.demo} target='_blank'>Demo</a> : <i>Demo not available</i>}</li>
-                                            <li><a href={project.github} target='_blank'>Github</a></li>
-                                            <li>{project.status}</li>
-                                        </ul>
+                                        <h5>View</h5>
+                            
+                                        {project.url ? <button className='online-button' onClick={() => window.open(project.url)}>Online</button> : <button className='online-button' disabled>Offline</button>}
+
+                                        {project.demo ? <button className='online-button' onClick={() => window.open(project.demo)}>Demo</button> : <button className='online-button' disabled>No Demo</button>}
+
+                                        <button className='online-button' onClick={() => window.open(project.github)}>Github</button>
                                     </Col>
                                 </Row>
-                                <br />
+                               
                                 <h5>Technology</h5>
                                 <Row>
                                     {project.technology.map((tech, index) => {
