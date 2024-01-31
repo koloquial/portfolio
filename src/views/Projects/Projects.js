@@ -19,6 +19,7 @@ import { IoIosColorPalette } from "react-icons/io";
 import chatgpt from '../../images/chatgpt.png';
 import { GiCardRandom } from "react-icons/gi";
 import { FaBook } from "react-icons/fa";
+import { SiMaterialdesign } from "react-icons/si";
 
 import hoa1 from '../../images/wallethoa/wallethoa1.png'
 import hoa2 from '../../images/wallethoa/wallethoa2.png'
@@ -51,6 +52,11 @@ import par1 from '../../images/parlor-games/pg1.png'
 import par2 from '../../images/parlor-games/pg2.png'
 import par3 from '../../images/parlor-games/pg3.png'
 
+import ms1 from '../../images/metadata-sound/ms1.png'
+import ms2 from '../../images/metadata-sound/ms2.png'
+import ms3 from '../../images/metadata-sound/ms3.png'
+import ms4 from '../../images/metadata-sound/ms4.png'
+
 const Projects = () => {
 
     const getIcon = (icon) => {
@@ -76,6 +82,7 @@ const Projects = () => {
             case 'react-card-flip': return <FaReact />
             case 'Free Dictionary API': return <FaBook />
             case 'Random Word API': return <GiCardRandom />
+            case 'Material UI': return <SiMaterialdesign />
             default: return <FaReact />
         }
     }
@@ -161,7 +168,22 @@ const Projects = () => {
         palette: ['#3C3633', '#747264', ' #E0CCBE'],
     }
 
-    const projects = [walletHOA, cineRate, gardenOfMirrors, parlorGames];
+    const metadataSound = {
+        title: 'Metadata Sound',
+        screenshots: [ms1, ms2, ms3, ms4],
+        technology: [
+            'React', 
+            'Material UI', 
+            'Google Fonts',
+        ],
+        description: 'Metadata music albums.',
+        url: 'https://metadata-sound.vercel.app/',
+        demo: '',
+        github: 'https://github.com/koloquial/metadata-sound',
+        palette: ['#28262C', '#D4C2FC', '#B8336A'],
+    }
+
+    const projects = [walletHOA, cineRate, gardenOfMirrors, parlorGames, metadataSound];
 
     return (
         <div className='projects'>

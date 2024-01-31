@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Tabs, Tab, Table, Card } from 'react-bootstrap';
 
 const CV = () => {
-    const keywords = ['Javascript', 'Node.js', 'SQL', 'MongoDB', 'Express.js', 'HTML', 'CSS', 'SASS', 'JQuery', 'ReactJS', 'Angular', 'Vue', 'Bootstrap', 'Redux', 'Socket.io', 'Adobe XD', 'NextJS', 'Firebase', 'Mongoose', 'Chart.js', 'Material UI', 'JIRA'];
+    const keywords = ['Javascript', 'Node.js', 'SQL', 'MongoDB', 'Express.js', 'HTML', 'CSS', 'SASS', 'JQuery', 'ReactJS', 'Angular', 'Vue', 'Bootstrap', 'Redux', 'Socket.io', 'Adobe XD', 'NextJS', 'Firebase', 'Mongoose', 'Chart.js', 'Material UI', 'JIRA', 'GIT'];
 
     return (
         <div className='cv'>
@@ -15,10 +15,10 @@ const CV = () => {
                     <Tab eventKey="profile" title="Profile">
                         <h5>Profile</h5>
                         <p>
-                        Nicholas Kolodziej brings a wealth of expertise as a Full-Stack Developer, showcasing a robust proficiency in Javascript, HTML, and CSS, along with a diverse skill set encompassing prevalent web practices and platforms such as React, Angular, and Vue. His educational background includes studies in Computer Science at Western Michigan University, Telecommunications at Michigan State University, and Advanced Software Engineering at Operation Spark.
+                            Nicholas Kolodziej brings a wealth of expertise as a Full-Stack Developer, showcasing a robust proficiency in Javascript, HTML, and CSS, along with a diverse skill set encompassing prevalent web practices and platforms such as React, Angular, and Vue. His educational background includes studies in Computer Science at Western Michigan University, Telecommunications at Michigan State University, and Advanced Software Engineering at Operation Spark.
                         </p>
                         <p>
-                        Over the past three years, he has successfully completed twenty-five educational courses through Learning & Knowledge, leveraging tools like the Carbon Design System, Gatsby (React), and LK Components UI Kit (Vanilla JS/HTML/CSS). This extensive experience has not only enabled him to innovate and craft custom interactions for learners but has also empowered him to develop dynamic components and templates, streamlining processes for future developers.
+                            Over the past three years, he has successfully completed twenty-five educational courses through Learning & Knowledge, leveraging tools like the Carbon Design System, Gatsby (React), and LK Components UI Kit (Vanilla JS/HTML/CSS). This extensive experience has not only enabled him to innovate and craft custom interactions for learners but has also empowered him to develop dynamic components and templates, streamlining processes for future developers.
                         </p>
                     </Tab>
                     <Tab eventKey='skills' title='Skills'>
