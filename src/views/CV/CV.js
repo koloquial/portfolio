@@ -81,7 +81,7 @@ const CV = () => {
                                 <tr>
                                     <td>
                                         <p>Learning and Knowledge</p>
-                                        <p><i>May 2020 - Mar 2021</i></p>
+                                        <p><i>Mar 2021 - Oct 2023</i></p>
                                     </td>
                                     <td>
                                         <p>My role as UI developer on these (25) projects was to engineer the course based on wireframes/mockups provided by LED/VD using LK Components UI kit (Javascript, HTML, and CSS) or by Gatsby/Carbon framework and ReactJS.
@@ -92,7 +92,7 @@ const CV = () => {
                                 <tr>
                                     <td>
                                         <p>New York Department of Labor</p>
-                                        <p><i>Mar 2021 - Oct 2023</i></p>
+                                        <p><i>May 2020 - Mar 2021</i></p>
                                     </td>
                                     <td>
                                         <p>Assisted in NY DOL unemployment claims. Processed regular unemployment and pandemic unemployment. Helped claimants resolve problems with claims.</p>
