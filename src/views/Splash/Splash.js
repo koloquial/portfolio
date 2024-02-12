@@ -12,7 +12,7 @@ const Splash = () => {
     return (
         <div className='splash'>
             <h2 className='title'>Nicholas R. Kolodziej</h2>
-            <h4 className='subtitle highlight'>Software Engineer</h4>
+            <h4 className='subtitle highlight'>Application Developer</h4>
 
             <br />
 

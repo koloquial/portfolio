@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Tabs, Tab, Table, Card } from 'react-bootstrap';
 
+import pdf from '../../documents/Nicholas_Kolodziej-CV-Feb24.pdf';
+import docx from '../../documents/Nicholas_Kolodziej-CV-Feb24.docx';
+
 const CV = () => {
     const keywords = ['Javascript', 'Node.js', 'SQL', 'MongoDB', 'Express.js', 'HTML', 'CSS', 'SASS', 'JQuery', 'ReactJS', 'Angular', 'Vue', 'Bootstrap', 'Redux', 'Socket.io', 'Adobe XD', 'NextJS', 'Firebase', 'Mongoose', 'Chart.js', 'Material UI', 'JIRA', 'GIT'];
 
@@ -9,7 +12,11 @@ const CV = () => {
             <h1 className='title'>Nicholas R. Kolodziej</h1>
             <p><Link to='/'>Home</Link> / CV</p>
             <Container>
-                <button>Download CV (PDF)</button>
+                <h4>Download CV</h4>
+                <Row>
+                    <Col><a href={pdf} download><button>*.pdf</button></a></Col>
+                    <Col><a href={docx} download><button>*.docx</button></a></Col>
+                </Row>
 
                 <Tabs defaultActiveKey="profile" justify>
                     <Tab eventKey="profile" title="Profile">

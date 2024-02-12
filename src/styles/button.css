@@ -33,7 +33,7 @@ button:active {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to right, var(--shade4), var(--shade3));
+  border-image-source: linear-gradient(to right, var(--shade1), var(--shade2));
   color: black;
 }
 
@@ -41,8 +41,8 @@ button:active {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1px;
-  background: linear-gradient(to right, var(--shade4), var(--shade3));
-  color: black;
+  background: linear-gradient(to right, var(--shade1), var(--shade2));
+  color: white;
 }
 
 .online-button{
